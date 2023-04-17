@@ -1,0 +1,9 @@
+.passenger-item + .passenger-item {
+    margin-top: 0.5rem;
+}
+
+.room + .room {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--text-slate-300);
+}

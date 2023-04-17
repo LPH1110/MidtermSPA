@@ -1,0 +1,39 @@
+.contact-form {
+    margin-top: 1rem;
+}
+
+.form-row {
+    padding: 1rem 0;
+}
+
+.form-item {
+    min-height: 7.5rem;
+    width: 100%;
+}
+
+.input-container:hover {
+    .input-line {
+        height: 0.125rem;
+        background-color: var(--text-slate-500);
+    }
+}
+
+.input-container:focus-within {
+    .input-line {
+        height: 0.125rem;
+        transform-origin: center;
+        animation: spanning 0.3s ease-in-out;
+        background-color: var(--text-sky-500);
+    }
+}
+
+@keyframes spanning {
+    from {
+        opacity: 0;
+        width: 0;
+    }
+    to {
+        opacity: 1;
+        width: 100%;
+    }
+}
