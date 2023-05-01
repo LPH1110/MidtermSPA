@@ -2,7 +2,7 @@ import { Header, Footer } from '~/layouts/components';
 
 function DefaultLayout({ children }) {
     return (
-        <section>
+        <section class="h-screen flex flex-col justify-between">
             <Header />
 
             {/* Content */}

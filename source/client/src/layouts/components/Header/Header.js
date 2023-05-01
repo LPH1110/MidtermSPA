@@ -6,7 +6,7 @@ const navigations = [
     {
         id: 0,
         title: 'Discover',
-        path: '/discover',
+        path: '/404',
     },
     {
         id: 1,
@@ -16,7 +16,7 @@ const navigations = [
     {
         id: 2,
         title: 'Hotels',
-        path: '/hotels',
+        path: '/404',
     },
     {
         id: 3,
@@ -87,15 +87,20 @@ function Header() {
                         );
                     })}
                 </ul>
-                <Button className="hover:text-sky-400 ease duration-200" size="small">
-                    Sign in
-                </Button>
-                <Button
-                    className="font-semibold hover:bg-sky-400 bg-sky-500 ease-in-out duration-200 text-slate-100 rounded-lg"
-                    size="medium"
-                >
-                    Sign up
-                </Button>
+
+                <NavLink to="/signin">
+                    <Button className="hover:text-sky-400 ease duration-200" size="small">
+                        Sign in
+                    </Button>
+                </NavLink>
+                <NavLink to="/signup">
+                    <Button
+                        className="font-semibold hover:bg-sky-400 bg-sky-500 ease-in-out duration-200 text-slate-100 rounded-lg"
+                        size="medium"
+                    >
+                        Sign up
+                    </Button>
+                </NavLink>
             </nav>
         </header>
     );

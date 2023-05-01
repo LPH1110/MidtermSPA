@@ -68,7 +68,7 @@ function Footer() {
                         />
                     </a>
                     <p className="text-sm text-slate-700">
-                        HirenGo is popular in the UK for quality service. We make sure a great rental experience by
+                        BetterTrip is popular in the UK for quality service. We make sure a great rental experience by
                         providing superior services that provide to out customer's needs. It was founded in London in
                         2003.
                     </p>
@@ -102,13 +102,13 @@ function Footer() {
                             <span className="text-sky-500 mr-1">Phone: </span>+44 7911 457842
                         </p>
                         <p className="py-1 text-sm text-slate-700">
-                            <span className="text-sky-500 mr-1">Email: </span>support@hirengo.com
+                            <span className="text-sky-500 mr-1">Email: </span>support@bettertrip.com
                         </p>
                     </div>
                 </div>
             </section>
             <section className="flex items-center justify-between mt-5 py-4 px-3 border border-slate-300 rounded-lg">
-                <p className="text-sm text-slate-500">© 2022 HirenGo. All right reserved</p>
+                <p className="text-sm text-slate-500">© 2022 BetterTrip. All right reserved</p>
                 <div className="flex items-center">
                     <a
                         target="_blank"
